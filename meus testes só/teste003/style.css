@@ -1,7 +1,5 @@
 @charset "UTF-8";
 *{
-    min-width: 320px;
-    max-width: 900px;
     margin: auto;
 }
 body {
@@ -24,7 +22,8 @@ main{
     padding: 10px;
     margin: auto;
     border: 3px solid #0388A6;
-    width: 1300px;
+    min-width: 300px;
+    max-width: 700px;
     border-radius: 8px;
 
 }
@@ -33,14 +32,15 @@ div {
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.26);
     padding: 3px;
     margin: auto;
-    width: 1300px;
+    min-width: 300px;
+    max-width: 650px;
     border-radius: 6px;
 }
 
 h2 {
     text-align: justify;
-    margin: 3px 3px 3px 276px;
-    width: 200px;
+    text-align: center;
+    margin: auto;
 }
 
 footer>p {
@@ -53,7 +53,8 @@ footer {
     box-shadow: 2px 2px 7px;
     padding: 10px;
     margin: auto;
-    width: 1300px;
+    min-width: 300px;
+    max-width: 1000px;
     text-align: center;
 
 }
