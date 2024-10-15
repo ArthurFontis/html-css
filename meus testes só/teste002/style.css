@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    background-image: linear-gradient(to top, #CCF1FF, #3F839E);
+    font-family: "Merriweather", serif;
+    font-size: 1em;
+    font-weight: normal;
+    background-attachment: fixed;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px;
+    width: 1200px;
+    padding: 10px;
+    margin: auto
+}
+
+h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #55aeb6;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #55aeb6;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+p {
+    color: #004147;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #0041474f;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+ul {
+    color: #004147;
+}
+
+dt {
+    color: #73bdc4;
+}
+
+dd {
+    color: #004147;
+}
+
+.caracteristicas {
+    color: #55aeb6;
+    background-color: #3fe9f867;
+    width: min-content;
+}
+
+.listados {
+    color: #55aeb6;
+    background-color: #3fe9f867;
+    width: fit-content;
+}
+
+#pessoais {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}
+
+.introducao {
+    font-size: 2em;
+}

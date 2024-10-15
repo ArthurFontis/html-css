@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em Html5</title>
+</head>
+
+<body>
+    <h1>Imagem dinânimca</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu
+        navegador </p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <!--A ordem dos souces importa, tem que estar em ordem correta de tamanhos-->
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <p>vamos aprender a reproduzir áudios em html5</p>
+    <audio preload="metadata" autoplay controls
+        loop><!--auto= só vai entender queo site carregou, só depois de o audio carregar tudo, meta data= carregar só algumas infos, e none= vai carregar nada, loop= audio volta automaticamente-->
+        <source src="midia/uma-música.mp3" type="audio/mpeg">
+        <source src="midia/uma-música.mp3" type="audio/ogg">
+        <source src="midia/uma-música.mp3" type="audio/wav"> <!--wav é muito grande os kbs-->
+        <!--Ordem de cima para baixo, se não conseguir reproduzir com o de cima, vai tentar com o de baixo-->
+        <p>Infelizmente seu navegador não é compatível, segue em link para baixar o arquivo <a
+                href="midia/uma-música.mp3" download></a></p>
+    </audio>
+
+</body>
+
+</html>

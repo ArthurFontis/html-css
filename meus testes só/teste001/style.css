@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to bottom,#F4F2F2, #16181D);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+h1{
+    color: #152026;
+    text-align: center;
+    margin: auto;
+}
+p{
+    color: #152026
+}
+h3{
+    color:#152026
+}
+img{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
