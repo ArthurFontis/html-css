@@ -26,9 +26,6 @@ nav#navegacao{
     margin-left: 250px;
     max-width: 600px;
 }
-a.nav{
-    
-}
 nav>a{
     text-decoration: none;
     color: white;
