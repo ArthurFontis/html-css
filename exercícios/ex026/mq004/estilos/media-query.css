@@ -25,11 +25,11 @@ Grandes Telas: acima de 1200px
         content: 'ESSA IMPRESSÃO FOI FEITA PELO SITE WWW.FONTISSITESHTML&CSS.COM';
         text-decoration: overline;
     }
-    img#phone{display: none;}
-    img#tablet{display: none;}
-    img#print{display: block;}
-    img#pc{display: none;}
-    img#tv{display: none;}
+        img#phone{display: none;}
+        img#tablet{display: none;}
+        img#print{display: block;}
+        img#pc{display: none;}
+        img#tv{display: none;}
 }
 
 @media screen and (min-width:768px) and (max-width:992px) { /* TABLET */
@@ -60,9 +60,9 @@ Grandes Telas: acima de 1200px
         background-image: url(../imagens/back-tv.jpg);
     }
     
-    img#phone{display: none;}
-    img#tablet{display: none;}
-    img#print{display: none;}
-    img#pc{display: none;}
-    img#tv{display: block;}
+        img#phone{display: none;}
+        img#tablet{display: none;}
+        img#print{display: none;}
+        img#pc{display: none;}
+        img#tv{display: block;}
 }
